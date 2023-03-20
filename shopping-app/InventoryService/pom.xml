@@ -4,18 +4,16 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.4</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<groupId>com.guasim.dev</groupId>
+		<artifactId>shopping-app</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<groupId>com.guasim.dev</groupId>
-	<artifactId>OrderService</artifactId>
+	<artifactId>InventoryService</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
-	<name>OrderService</name>
-	<description>Ordering products service</description>
+	<name>InventoryService</name>
+	<description>Inventory service of products</description>
 
 	<properties>
 		<java.version>17</java.version>
