@@ -21,7 +21,7 @@ public class InventoryController {
 	@Autowired
 	private final InventoryService service;
 
-	@GetMapping("/{sku-code}")
+	@GetMapping
 	public List<InventoryResponse> inStock(@RequestParam List<String> skuCodes) {
 		return service.isInStock(skuCodes);
 	}
